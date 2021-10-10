@@ -14,8 +14,22 @@
     <title>BookStoreMini</title>
   </head>
   <body>
-    <div class="container">
-      <table class="table">
+    <h1>Library</h1>
+
+    <div>
+      <div>
+        <label for="">Name</label>
+        <input type="text" name="name" />
+      </div>
+      <div>
+        <label for="">Author</label>
+        <input type="text" name="author" />
+      </div>
+      <button id="create">Create</button>
+    </div>
+
+    <div class="container border border-dark">
+      <table class="table table-hover">
         <thead>
           <tr>
             <th scope="col">ID</th>
@@ -23,7 +37,7 @@
             <th scope="col">Tác giả</th>
           </tr>
         </thead>
-        <tbody id="root"></tbody>
+        <tbody id="list-book"></tbody>
       </table>
     </div>
     <script src="index.js"></script>

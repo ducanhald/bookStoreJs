@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "name": "bookmanagermini",
+  "description": "��#\u0000 \u0000b\u0000o\u0000o\u0000k\u0000S\u0000t\u0000o\u0000r\u0000e\u0000J\u0000s\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducanhald/bookStoreJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducanhald/bookStoreJs/issues"
+  },
+  "homepage": "https://github.com/ducanhald/bookStoreJs#readme"
+}
